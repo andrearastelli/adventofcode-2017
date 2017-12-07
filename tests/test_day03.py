@@ -17,3 +17,7 @@ class TestDay03_Part1(unittest.TestCase):
 
     def test_manhattan_steps4(self):
         self.assertEqual(manhattan_steps(1024), 31)
+
+
+class TestDay03_Part2(unittest.TestCase):
+    pass
