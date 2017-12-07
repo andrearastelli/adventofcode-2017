@@ -1,6 +1,6 @@
 # adventofcode-2017
 
-From adventofcode.com.
+From adventofcode.com - Python version.
 
 Currently completed:
 - Day 1 (2/2)
