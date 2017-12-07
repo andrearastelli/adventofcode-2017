@@ -6,7 +6,7 @@ def inverse_captcha(string):
     for idx in range(1, len(string)):
         # print(string[idx], string[idx-1])
 
-        if string[idx] == string[idx-1]:
+        if string[idx] == string[idx - 1]:
             s += int(string[idx])
 
     if string[-1] == string[0]:
@@ -18,4 +18,4 @@ def inverse_captcha(string):
 if __name__ == '__main__':
     with open('input.txt', 'r') as f:
         for line in f:
-            print inverse_captcha(line)
+            print(inverse_captcha(line))

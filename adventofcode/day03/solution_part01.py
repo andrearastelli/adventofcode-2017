@@ -1,5 +1,5 @@
 def manhattan_steps(destination):
-    pass
+    return destination
 
 
 if __name__ == '__main__':
